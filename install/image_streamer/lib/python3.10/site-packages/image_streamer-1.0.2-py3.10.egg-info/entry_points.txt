@@ -1,0 +1,3 @@
+[console_scripts]
+image_streamer = image_streamer.main:main
+

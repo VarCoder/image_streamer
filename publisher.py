@@ -15,8 +15,8 @@ class publisher(Node):
 		self.i = 0
 		self.bridge = CvBridge()
 
-		self.im_list = os.listdir("/home/shimizu/ros2_ws/src/qt_plugins/image_streamer/pizza_images")
-		self.im_list = [self.bridge_img(f"/home/shimizu/ros2_ws/src/qt_plugins/image_streamer/pizza_images/{x}") for x in self.im_list]
+		self.im_list = os.listdir("/home/airlab/ros2_ws/src/image_streamer/pizza_images")
+		self.im_list = [self.bridge_img(f"/home/airlab/ros2_ws/src/image_streamer/pizza_images/{x}") for x in self.im_list]
 
 		print(os.curdir)
 		
